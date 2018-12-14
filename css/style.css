@@ -1,0 +1,111 @@
+body, html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	padding: 20px;
+}
+.main-container{
+	width: 100%;
+	height: 100%;
+	background-color:#22B573;
+	border:4px solid #006837;
+	border-width: 4px;
+	position:relative;
+
+}
+.display-inline-block{
+	display: inline-block;
+}
+.navigation-a{
+	font-size: 50px;
+	margin-right: 44px;
+	color: #fff;
+	font-family: Myriad Pro;
+	
+
+}
+.navigation{
+	padding-top: 36px;
+	padding-left: 40px;
+}
+.bg-logo{
+	background-image: url(../img/logo.svg);
+	width: 876px;
+	height: 659px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	position: absolute;
+	top:36px;
+	right: 29px;
+}
+.white-box{
+	width: 619px;
+	height: 450px;
+	position: absolute;
+	left:0;
+	bottom: 0;
+	background-color: #fff;
+}
+.green-box{
+	width: 300px;
+	height: 300px;
+	background-color: #006837;
+	position: absolute;
+	transform:translate(-50%,-50%);
+	top:50%;
+	left: 50%;
+}	
+
+
+.read-more{
+	position: absolute;
+	right: 15px;
+	bottom: 0;
+	font-size: 14px;
+	color: #39B54A;
+	font-family: Myriad Pro;
+}
+.white-box:hover .green-box{
+	background-color: yellow;
+}
+.white-box:hover .read-more{
+	color:red;
+	left:480px;
+}
+.white-box:hover .text{
+	transform: rotate(0deg);
+	position: absolute;
+	right: 2px;
+	position: center;
+}
+
+.text{	
+	position: absolute;
+	transform:translate(-50%,-50%) rotate(43deg);
+	top:50%;
+	left: 50%;
+	font-size:35px;
+	color: red;
+	white-space: nowrap;
+	font-family: Myriad Pro;
+}
+
+.Text1{
+	text-align: center;
+	font-size: 18px;
+	font-family: Myriad Pro;
+	margin-bottom: 13px;
+}
+.text2{
+	position: absolute;
+	bottom: 0;
+	right:0;
+	margin-right: 18px;
+	margin-bottom: 15px;
+	font-size: 14px;
+	font-family: Myriad Pro;
+	color: yellow;
+}
+
